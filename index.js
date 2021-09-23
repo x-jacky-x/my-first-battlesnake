@@ -25,8 +25,8 @@ function handleIndex(request, response) {
     apiversion: '1',
     author: 'Jacky B',
     color: '#ff1a75',
-    head: 'tongue',
-    tail: 'freckled'
+    head: 'all-seeing',
+    tail: 'rattle'
   }
   response.status(200).json(battlesnakeInfo)
 }
